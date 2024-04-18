@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <div class="page-container">
+        <div class="navigation-container">
+            <div class="title-container">
+                <img class="page-icon dashboard-icon" src="./resources/icons/alien-outline.svg" alt="Dashboard icon"/>
+                <h1>Dashboard</h1>
+            </div> 
+            <div>
+                <ul>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/home.svg" alt="Home icon" /> Home</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/face-man-profile.svg" alt="Profile icon" />Profile</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/message-processing.svg" alt="Message icon" />Messages</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/history.svg" alt="History icon" />History</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/calendar-check.svg" alt="Task icon" />Tasks</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/account-group.svg" alt="Group icon" />Communities</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/cog.svg" alt="Setting icon" />Settings</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/face-agent.svg" alt="Support icon" />Support</li>
+                    <li class="nav-list-container"><img class="page-icon" src="./resources/icons/account-lock.svg" alt="Privacy icon" />Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="guide-container">
+            <div class="search-container">
+                <img class="guide-icon" src="./resources/icons/magnify.svg" alt="Search icon">
+                <form action="#">
+                    <input type="search" class="search">
+                </form>
+            </div>
+            <div class="profile-container">
+                <img class="guide-icon" src="./resources/icons/bell-badge.svg" alt="Alert icon">
+                <img class="avatar profile-avatar" src="./resources/avatars/orange.png" alt="My avatar">
+                <p class="name">Lunado Wong</p>
+            </div>
+            <div class="greeting-container">
+                <img class="avatar greeting-avatar" src="./resources/avatars/orange.png" alt="My avatar">
+                <p class="greeting">Hi there,</p>
+                <p class="greeting-name">Lunado Wong (@lunadow)</p>
+            </div>
+            <div class="btn-container">
+                <button class="operate-btn">New</button>
+                <button class="operate-btn">Upload</button>
+                <button class="operate-btn">Share</button>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="project-container">
+                <p>Your projects</p>
+            </div>
+            <div class="annoucements-container">
+                <p>announcements</p>
+            </div>
+            <div class="Trending">
+                <p>Trending</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
